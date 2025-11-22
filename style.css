@@ -1,62 +1,24 @@
 
-.navbar {
-    width: 100%;
-    background-color: #FF69B4; 
-    padding: 10px 0;
-    position: fixed;
+
+
+
+body { font-family: 'Segoe UI', Arial, sans-serif;;
+  
+}
+h1 { color: #93138f; text-align: center; margin-bottom: 20px; 
+}    
+h2 { color: #1e046a; text-align: center; margin-bottom: 15px; 
+}           
+p { font-size: 18px; color: #2ac924; margin-bottom: 20px; text-align: center;
+}
+button { padding: 10px 20px; font-size: 16px; cursor: pointer; background: #1bcc00; color: #fff; border: none; border-radius: 4px; }
+
+.navbar{
+    position: sticky;
     top: 0;
-    left: 0;
     z-index: 1000;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-}
-
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-    font-size: 22px;
-    
-    font-weight: bold;
+    background: #ff9de2;
     padding: 10px 20px;
-    border-radius: 5px;
-    transition: background 0.3s;
+    text-align: left;
 }
 
-
-.navbar a:hover {
-    background-color: #FF85C1;
-}
-
-
-.navbar a.home-btn {
-    background-color: #D91AD9;
-}
-
-.navbar a.home-btn:hover {
-    background-color: #FF99E0;
-}
-
-
-body {
-    padding-top: 70px; 
-    font-family: helvetica;
-    
-    font-size: 18px;
-    color: blueviolet;
-    background-image: 
-    linear-gradient(red, orange, yellow, greenyellow);
-}
-
-h1 { text-align: center; margin: 20px; border: 5px dashed rgb(172, 48, 153); }
-
-h2 { font-size: 30px; color: rgb(57, 221, 81); margin: 10px 100px; }
-h3 { font-size: 60px; color: rgb(255, 0, 187); text-align: center; text-shadow: 2px 2px 7px greenyellow; margin: 20px 100px; }
-.wrap { background: rgb(214, 22, 179); border: 15px dashed; }
-#img1 { display: block; margin: 20px auto; filter: drop-shadow(10px 10px 12px rgb(227, 175, 17)); }
-
-
-ul { font-size: 20px; color: rgb(142, 8, 108); }
-
-
-ol { font-size: 25px; color: rgb(0, 0, 128); }
